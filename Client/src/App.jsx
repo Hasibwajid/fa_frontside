@@ -16,7 +16,7 @@ import GuestHome from './GuestPage/GuestHome';
 import PostJob from './ClientPages/PostJob';
 import SignUp from './Auth/Register/SignUp';
 import LoginForm from './Auth/Login/Login';
-import NotFound from './Components/notFound';
+import NotFound from './Components/NotFound';
 import MessagesPage from './Chat/MessagePage';
 import HirePage from './ClientPages/HirePage';
 import ContractsPage from './ClientPages/Contracts';
