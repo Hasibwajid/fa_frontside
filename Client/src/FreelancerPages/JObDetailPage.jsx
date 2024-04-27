@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useHistory } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-solid-svg-icons';
-import './JobDetailPage.css';
+import './JObDetailPage.css';
 import { getTimeDifference } from "./helper";
 import axiosInstance from '../api';
 
