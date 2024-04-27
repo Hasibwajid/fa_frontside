@@ -1,0 +1,380 @@
+/* Combined CSS for SentProposalDetailPage.css and ProposalDetailPage.css */
+
+/* Common styles */
+.proposal-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.proposal-detail-card {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.proposal-detail-avatar {
+  position: relative;
+}
+
+.avatar-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.proposal-detail-info {
+  flex: 1;
+  padding: 10px;
+}
+
+.proposal-detail-info h5 {
+  margin-bottom: 0;
+}
+
+.proposal-detail-info p {
+  margin: 2px 0;
+  color: #777;
+  font-size: 14px;
+}
+
+.proposal-detail-buttons {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.proposal-detail-buttons button {
+  border-radius: 18px;
+  padding: 3px 99px;
+  margin: 20px 0;
+}
+
+.cover-letter {
+  white-space: pre-wrap;
+  margin-bottom: 20px;
+}
+
+.skills-section {
+  margin-bottom: 20px;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-tag {
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 18px;
+  padding: 4px 12px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.portfolio {
+  margin-bottom: 20px;
+}
+
+.portfolio-list {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.portfolio-item {
+  width: calc(50% - 10px);
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.portfolio-item:hover {
+  background-color: #d3e6fc;
+}
+
+.portfolio-item h4 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.portfolio-item p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.portfolio-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.portfolio-item li {
+  display: inline-block;
+  margin-right: 5px;
+  background-color: #e0e0e0;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.portfolio-item a {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.portfolio-item a:hover {
+  text-decoration: underline;
+}
+
+.portfolio-title {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.portfolio-details {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.portfolio-url {
+  font-size: 16px;
+  color: #333;
+}
+
+.portfolio-tags {
+  margin-top: 10px;
+}
+
+.portfolio-tags p {
+  display: inline-block;
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 5px 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* Styles from SentProposalDetailPage.css */
+.proposal-detail-container {
+  /* Removed duplicate styles */
+}
+
+/* Styles from ProposalDetailPage.css */
+.proposal-detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  flex-direction: column; /* Replacing 'display: flex' from SentProposalDetailPage.css */
+}
+
+.proposal-detail-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.project-details-section {
+  margin-bottom: 30px;
+}
+
+.project-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  text-align: left;
+  font-size: 18px;
+  color: #555;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.terms-section h2,
+.cover-letter-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.terms-section,
+.cover-letter-section {
+  margin-bottom: 30px;
+}
+
+.bid-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bid-section label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.bid-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.bid-input {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.bid-amount-readOnly,
+.receive-amount,
+.cover-letter-readOnly {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.receive-section {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.change-btn,
+.withdraw-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.change-btn {
+  background-color: #007bff;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.withdraw-btn {
+  background-color: #f5f5f5;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.withdraw-btn:hover{
+  background-color: #eceaea;
+}
+.change-btn:hover {
+  background-color: #0056b3;
+}
+
+.send-btn,
+.cancel-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.send-btn {
+  background-color: #007bff;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cancel-btn {
+  background-color: #f5f5f5;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cover-letter-input {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.cover-letter-readOnly {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.btn-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.save-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.save-btn:hover {
+  background-color: #0056b3;
+}
+
+.status-time-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.status {
+  font-size: 18px;
+  font-weight: bold;
+  color: #28a745; /* Use the appropriate color for the status (e.g., green for 'Accepted', red for 'Rejected', etc.) */
+  margin-bottom: 5px;
+}
+
+.posted-time,
+.updated-time {
+  font-size: 14px;
+  color: #777;
+}

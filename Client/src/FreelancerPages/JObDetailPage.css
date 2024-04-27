@@ -1,0 +1,126 @@
+/* JobDetailPage.css */
+
+.job-detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .job-detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .job-detail-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    color: #007bff;
+  }
+  
+  .job-detail-posted-time {
+    display: flex;
+    align-items: center;
+    color: #777;
+  }
+  
+  .clock-icon {
+    margin-right: 5px;
+    color: #007bff;
+  }
+  
+  .job-detail-section {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  .sec {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    transition: box-shadow 0.2s ease, background-color 0.2s ease;
+  }
+  
+  .sec:hover {
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-detail-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #007bff;
+  }
+  
+  .job-detail-description {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .job-detail-tags .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  
+  .skill-tag {
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 18px;
+    padding: 4px 12px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .apply-now-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  .apply-now-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .apply-now-button:focus {
+    outline: none;
+  }
+  
+
+  
+.applied-button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.applied-button {
+  background-color: #f0f0f0; /* Change the background color to your desired style */
+  color: #007bff  ; /* Change the text color to your desired style */
+  border: 1px solid #ccc; /* Add a border for a button-like appearance */
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.applied-button:hover {
+  background-color: #ddd; /* Change the background color on hover */
+  border: none;
+}

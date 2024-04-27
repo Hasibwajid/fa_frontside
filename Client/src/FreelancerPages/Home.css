@@ -1,0 +1,214 @@
+/* Home.css */
+
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Top section containing 'My Proposals' and 'My Profile' items */
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+
+  .arrow-icon {
+    margin-left: 10px;
+    cursor: pointer; /* Add cursor: pointer to indicate the item is clickable */
+  }
+  
+  .arrow-icon:hover{
+    color :  #007bff;
+  }
+
+  /* Jobs section */
+  .jobs-section {
+    margin-bottom: 30px;
+    width: 100%;
+    margin-top: 20px;
+
+  }
+
+  .jobsCount{
+    text-align: right;
+    margin-right: 25px;
+    color: #555;
+  }
+  
+  /* Custom scrollbar for the job list container */
+.job-list-container {
+  overflow-y: auto;
+  scrollbar-width: thin; /* Width of the scrollbar track (non-Firefox) */
+}
+
+/* Webkit (Chrome, Safari, Edge) scrollbar track */
+.job-list-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Webkit scrollbar thumb */
+.job-list-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+/* Firefox scrollbar track */
+.job-list-container::-moz-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Firefox scrollbar thumb */
+.job-list-container::-moz-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+/* Style the scrollbar thumb when hovering over it */
+.job-list-container::-webkit-scrollbar-thumb:hover,
+.job-list-container::-moz-scrollbar-thumb:hover {
+  background-color: #555;
+}
+  .jobs-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .search-box input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+  
+  .highlightedText{
+    background-color: rgb(207, 197, 197);
+    font-weight: bold;
+  }
+  .search-icon {
+    color: #777;
+    margin-left: 10px;
+    cursor: pointer;
+    
+  }
+
+  .search-icon:hover{
+    color :  #007bff;
+  }
+  
+  /* Job list */
+  .job-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+
+  }
+  
+  .job-item {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    transition: box-shadow 0.2s ease, background-color 2s ease; /* Add transition property */
+
+  }
+
+  /* Add hover effect to job items */
+.job-item:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  background-color: #d3e6fc;
+  cursor: pointer;
+  
+}
+  
+  .job-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #3f4041;
+    justify-content: left;
+  }
+  .job-title:hover{
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  .job-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .posted-time,
+  .budget {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .job-description {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .job-skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .tags-container {
+    display: flex;
+  }
+  
+  .skill-tag {
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 18px;
+    padding: 4px 12px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    margin-right: 5px; /* Optional: Add margin between tags */
+
+  }
+  
+  .proposals-count{
+    text-align: right;
+    color: #555;  }
+
+
+    .loading-spinner {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(255, 255, 255, 0.8);
+      z-index: 9999; /* Set a higher z-index to make sure it's above other elements */
+    }
+    
+    .loading-spinner .d-flex {
+      min-height: 100vh; /* Ensure the container takes up the full viewport height */
+    }
+    

@@ -1,0 +1,178 @@
+.header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .header-logo img {
+    height: 40px;
+  }
+  
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 30px;
+  }
+  
+  .nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #0073b1;
+  }
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-post-job,
+  .header-login {
+    margin-right: 20px;
+    color: #0073b1;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid #0073b1;
+    border-radius: 4px;
+    margin-right: 15px;
+    font-size: 16px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .header-post-job:hover,
+  .header-login:hover {
+    background-color: #0073b1;
+    color: #fff;
+  }
+  
+  .header-menu-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+  }
+  
+  /* Responsive styles (adjust as needed) */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .header-actions {
+      margin-left: auto;
+    }
+  
+    .header-menu-btn {
+      display: block;
+    }
+  
+    .header-nav.active .nav-links {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 15px 0;
+    }
+  
+    .header-nav.active .nav-links li {
+      margin: 0;
+    }
+  
+    .header-nav.active .nav-links a {
+      display: block;
+      padding: 10px 20px;
+    }
+  }
+  /* Add this CSS to your Header.css file */
+
+/* ... (other styles) ... */
+
+.profile-wrapper {
+  position: relative;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #007bff;
+}
+
+.dropdown-list {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.dropdown-list li {
+  cursor: pointer;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-icon {
+  margin-right: 10px;
+}
+
+.dropdown-list li:hover {
+  background-color: #f8f8f8;
+}
+
+/* ... (other styles) ... */
+
+.user-role {
+  color: #ffffff;
+  font-weight: bold;
+  justify-content: center;
+  border-bottom: 1px solid #ddd;
+  padding: 90px;
+}
+.role-icon{
+  margin-right: 5px;
+  
+}

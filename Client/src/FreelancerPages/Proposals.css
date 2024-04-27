@@ -1,0 +1,209 @@
+.proposals-page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Heading for My Proposals */
+.proposals-heading {
+  font-size: 24px;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Section headings */
+.section-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Individual proposal item */
+.proposal-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease, background-color 2s ease; /* Add transition property */
+}
+
+.proposal-item:hover {
+  background-color: #d3e6fc;
+}
+
+/* Styling for the proposal title */
+.proposal-title {
+  font-size: 18px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+/* Hover effect for the proposal title */
+.proposal-title:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Proposal date */
+.proposal-date {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Styles for each section */
+.offers-section,
+.submitted-section,
+.active-section,
+.declined-section {
+  margin-bottom: 30px;
+}
+
+/* Help-section */
+.help-section {
+  border-radius: 2px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  padding: 4px;
+  background-color: #d3e6fc;
+  margin: 30px;
+}
+
+.help-title {
+  color: #0056b3;
+  font-size: 17px;
+}
+
+.help-icon {
+  color: #0056b3;
+  border-radius: 40%;
+  cursor: pointer;
+  margin-right: 4px;
+  text-align: right;
+  text-decoration: underline;
+}
+.help-icon:hover {
+  color: blue;
+}
+
+.help-desc {
+  text-align: left;
+  margin: 10px;
+}
+
+.btnClose {
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 8px;
+  color: #82b5f0;
+}
+.btnClose:hover {
+  background-color: #d3e6fc;
+  border-color: #8a241d;
+  color: red;
+}
+
+.delete-icon {
+  display: inline-block;
+  cursor: pointer;
+  color: #f51901;
+  /* Choose a color for the delete icon */
+  font-size: 18px;
+  /* Adjust the size of the icon as needed */
+  margin-left: 8px;
+  /* Add some spacing between the icon and the text */
+}
+
+.delete-icon:hover {
+  color: #ee0505;
+  /* Choose a different color when hovering over the icon */
+}
+
+/* Optional: Add a transition effect for a smoother hover */
+.delete-icon {
+  transition: color 0.2s ease;
+}
+
+/* Style for the Message and Accept buttons */
+.proposal-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.message-button,
+.accept-button {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.message-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.accept-button {
+  background-color: #28a745;
+  color: white;
+}
+
+/* Tab navigation styling */
+.proposals-tabs {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.proposals-tabs .nav-link {
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #333;
+}
+
+.proposals-tabs .nav-link.active {
+  background-color: #007bff;
+  color: white;
+}
+.review-button {
+  background-color: #f0ad4e;
+  border-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 16px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.review-button:hover {
+  background-color: #eea236;
+}
+.submit-button  {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 16px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.proposals-tabs .nav-link:hover {
+  background-color: #d3e6fc;
+  color: #007bff;
+}

@@ -1,0 +1,148 @@
+/* Profile Container */
+.profile-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Profile Header */
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.profile-info p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Profile Section */
+.profile-section {
+  margin-top: 20px;
+}
+
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-heading h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.p-icon {
+  transition: background-color 0.3s ease; /* Add transition for smooth effect */
+
+}
+.p-icon :hover {
+  cursor: pointer;
+  color: #007bff;
+}
+
+.description {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+  margin-top: 40px;
+}
+
+.portfolio-list {
+  margin-top: 40px;
+  display: flex; /* Use flexbox to align portfolio items in a row */
+  flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
+  gap: 20px; /* Add some space between portfolio items */
+}
+.portfolio-item {
+  width: calc(50% - 10px); /* Show two items per row with some gap between them */
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease; /* Add transition for smooth effect */
+}
+.portfolio-item:hover {
+  background-color:  #d3e6fc;/* Change background color on hover */
+}
+
+
+.portfolio-item h4 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.portfolio-item p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.portfolio-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.portfolio-item li {
+  display: inline-block;
+  margin-right: 5px;
+  background-color: #e0e0e0;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.portfolio-item a {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.portfolio-item a:hover {
+  text-decoration: underline;
+}
+/* Skills Section */
+.skills-section {
+  margin-top: 40px;
+}
+
+.skills-list {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-tag {
+  background-color: #e0e0e0;
+  color: black;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}

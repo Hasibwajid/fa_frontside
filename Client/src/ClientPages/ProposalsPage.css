@@ -1,0 +1,169 @@
+/* ProposalsPage.css */
+
+/* Style for the proposals container */
+.proposals-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  /* Style for proposal cards */
+  .proposal-card {
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+ 
+  /* Add a subtle shadow on hover */
+  .proposal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .client-proposal-card-body{
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  .right-side{
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+  }
+
+
+  
+  /* Style for the "View Proposal Details" link */
+  .detail-link {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .detail-link:hover {
+    color: #0056b3;
+  }
+  
+  /* Style for the "Hire" button */
+  .btn-hire {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 16px;
+    margin: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .btn-hire:hover {
+    background-color: #1e7e34;
+    border-color: #1e7e34;
+  }
+  .active-status{
+    text-align: left;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  .proposal-status{
+    margin: 0 0 10px 0px;
+  }
+  
+  /* Style for the job title */
+  .job-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    /* Add the following styles for horizontal center alignment */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Style for the freelancer name */
+  .freelancer-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Style for the freelancer city */
+  .freelancer-city {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the budget/bid amount */
+  .bid-amount {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the freelancer skills */
+  .freelancer-skills {
+    margin-top: 10px;
+  }
+  
+  /* Style for the freelancer skills tags */
+  .skill-tag {
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 18px;
+    padding: 4px 12px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: inline-block;
+  }
+  
+  /* Media query for responsive design */
+  @media (max-width: 768px) {
+    .proposals-container {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      
+    }
+  }
+  
+  /* Add styles for different proposal status colors */
+.status-pending {
+  color: rgb(136, 145, 22);
+}
+
+.status-declined {
+  color: red;
+}
+
+.status-accepted {
+  color: green;
+}
+
+.status-interviewing {
+  color: skyblue;
+}
+

@@ -1,0 +1,66 @@
+/* HowItWorks.css */
+
+.how-it-works-page {
+    padding: 20px 20px;
+    text-align: center;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 10px;
+}
+
+.how-it-works-heading {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.step-number {
+    flex: 0 0 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.step-content {
+    flex: 1;
+    text-align: left;
+}
+
+.step-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.step-content p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .step {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .step-number {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .step-content {
+        text-align: center;
+    }
+}

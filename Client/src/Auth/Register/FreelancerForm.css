@@ -1,0 +1,155 @@
+/* FreelancerSignUpForm.css */
+.signup-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .freelancer-signup-form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .phone-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%; /* Set the phone-input width to 100% */
+  }
+  
+  .phone-flag {
+    font-size: 16px;
+    margin-left: 5px; 
+  }
+  
+  .form-checkbox{
+    display: flex;
+    align-items: center;
+  }
+  .form-checkbox input{
+    width: 5%;
+    margin-right: 9px;
+    margin-bottom: 9px;
+  }
+  
+  .signup-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .signup-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .flex-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .password-input {
+    /* Set the password-input container to use flexbox and align items to the right */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .password-input input {
+    /* Adjust input width to fill the container */
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .password-input i {
+    /* Style the eye icon */
+    font-size: 18px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .phone-input {
+    /* Set the phone-input container to use flexbox and align items to the right */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .phone-input select {
+    /* Adjust the width of the select element to 25% of the container */
+    flex: 0 0 25%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .phone-input input {
+    /* Adjust the input width to fill the remaining space */
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .phone-flag {
+    /* Remove margin-right and add margin-left to separate the flag from the input */
+    font-size: 16px;
+    margin-left: 5px;
+  }

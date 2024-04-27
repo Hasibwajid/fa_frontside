@@ -1,0 +1,34 @@
+  .header-client-job{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .header-client-job .greeting{
+    font-size: 20px;
+  }
+
+  
+  .add-job-btn {
+    margin-right: 20px !important;
+    color: #0073b1 !important;
+    text-decoration: none !important;
+    padding: 8px 16px !important;
+    border: 1px solid #0073b1 !important;
+    border-radius: 4px !important;
+    margin-right: 15px !important;
+    background-color: #fff !important;
+    font-size: 16px !important;
+    transition: background-color 0.2s ease, color 0.2s ease !important;
+  }
+  
+  .add-job-btn:hover {
+    background-color: #0073b1 !important;
+    color: #fff !important;
+  }
+
+  .options-btn-job-card{
+    background-color: rgb(122, 87, 87) !important; 
+    border-radius: 50% !important;
+  }
+ 

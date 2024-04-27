@@ -1,0 +1,44 @@
+/* ContactUs.css */
+
+.contact-us-page {
+    padding: 20px;
+}
+
+.contact-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contact-method {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-method h4 {
+    margin-bottom: 10px;
+}
+
+.contact-method a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-method a:hover {
+    text-decoration: underline;
+}

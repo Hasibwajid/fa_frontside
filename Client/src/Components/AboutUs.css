@@ -1,0 +1,37 @@
+/* AboutUs.css */
+
+.about-us-page {
+    padding: 20px;
+}
+
+.about-text {
+    padding: 40px 0;
+    text-align: left;
+}
+
+.about-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333; /* Customize the color */
+}
+
+.platform-name {
+    color: #007bff; /* Customize the color */
+    font-weight: bold;
+}
+
+
+.about-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    /* Add any additional image styling here */
+}

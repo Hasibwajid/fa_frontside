@@ -1,0 +1,96 @@
+.post-job-container {
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .post-job-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .budget-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Add any other styles you want to apply to the budget input */
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .tags-input-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .tag {
+    margin: 5px;
+    background-color: #d8d4d4;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .tag-remove {
+    margin-left: 8px;
+    cursor: pointer;
+      }
+      .tag-remove:hover{
+        color: #dc3545;
+      }
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    background-color: #28a745;
+  }
+  
+  button[type="button"] {
+    background-color: #dc3545;
+  }
+
+  
+  /* Add this CSS to your PostJob.css or a separate CSS file */
+.modal {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+  

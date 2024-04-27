@@ -1,0 +1,114 @@
+/* ContractsPage.css */
+
+.contracts-page {
+    padding: 20px;
+  }
+  
+  .contracts-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .offersTabs {
+    margin-bottom: 30px !important;
+    
+  
+  }
+  /* Contracts.css */
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+  .offersTabs .nav-link {
+    background-color: #f8f9fa; /* Lighter background color for inactive tabs */
+    border: 1px solid #dee2e6;
+  }
+  
+  .offersTabs .nav-link.active {
+    background-color: #d3d3d3; /* Slightly darker background color for active tab */
+    border-color: #d3d3d3;
+  }
+  
+  .offer-card {
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .offer-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+  }
+  
+  .offer-card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .offer-card .card-subtitle {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .offer-card .card-text {
+    font-size: 14px;
+    color: #333;
+  }
+
+.status-sent {
+  color: rgb(150, 150, 71); /* Change to your desired color */
+}
+
+.status-accepted {
+  color: green; /* Change to your desired color */
+}
+  /* Contracts.css */
+
+.approve-button {
+  background-color: #28a745 !important; /* Green background color */
+  color: #ffffff !important; /* White text color */
+  border-color: #28a745 !important; /* Green border color */
+}
+
+.approve-button:hover {
+  background-color: #218838 !important; /* Darker green background color on hover */
+  border-color: #1e7e34; /* Darker green border color on hover */
+}
+.r-message-button {
+  background-color: #007bff !important; /* Blue background color */
+  color: #ffffff !important; /* White text color */
+  border-color: #007bff !important; /* Blue border color */
+}
+
+.r-message-button:hover {
+  background-color: #0056b3 !important; /* Darker blue background color on hover */
+  border-color: #0044a3 !important; /* Darker blue border color on hover */
+}
+
+
+.r-submission-button{
+  background-color: #28a745 !important; /* Green background color */
+    color: #ffffff !important; /* White text color */
+    border-color: #28a745 !important; /* Green border color */
+    
+}
+
+.r-submission-button:hover {
+  background-color: #1f8d3e !important; /* Darker green background color on hover */
+  border-color: #1b7530 !important; /* Darker green border color on hover */
+}
+
+
+.submission-pending-msg{
+  color: #888; /* Gray text color */
+  font-style: italic;
+}
