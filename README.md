@@ -1,6 +1,6 @@
 Some SS Client Side is Deployed on Vercel and Backend on Render:
 
-![Screenshot 2024-04-27 110615](https://github.com/Hasibwajid/fa_frontside/assets/72168225/896ee100-93fb-4770-99b1-facb13bca972)
+![image](https://github.com/Hasibwajid/fa_frontside/assets/72168225/2f495aef-0d32-439c-8f8d-5e0e685acc1e)
 
 ![Screenshot 2024-04-27 110632](https://github.com/Hasibwajid/fa_frontside/assets/72168225/a4d47d01-700f-4d5d-84b4-439544bb0c1d)
 
