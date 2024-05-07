@@ -2,13 +2,12 @@ Some SS Client Side is Deployed on Vercel and Backend on Render:
 
 ![image](https://github.com/Hasibwajid/fa_frontside/assets/72168225/2f495aef-0d32-439c-8f8d-5e0e685acc1e)
 
-![Screenshot 2024-04-27 110632](https://github.com/Hasibwajid/fa_frontside/assets/72168225/a4d47d01-700f-4d5d-84b4-439544bb0c1d)
+![image](https://github.com/Hasibwajid/fa_frontside/assets/72168225/ae0c4e11-638a-450e-a9d2-937f7cd14c63)
 
-![Screenshot 2024-04-27 110651](https://github.com/Hasibwajid/fa_frontside/assets/72168225/286c6d25-4a18-43b4-8f87-35240b497c33)
+![image](https://github.com/Hasibwajid/fa_frontside/assets/72168225/853f4ef5-73ac-4153-b249-06849ff4061c)
 
-![image](https://github.com/Hasibwajid/fa_frontside/assets/72168225/517343d5-5ed3-411f-b6cb-889dee8cba2e)
+![image](https://github.com/Hasibwajid/fa_frontside/assets/72168225/fd60a5c3-7245-4ea8-9e08-f7a22bc1d347)
     
- 
  
  
  
