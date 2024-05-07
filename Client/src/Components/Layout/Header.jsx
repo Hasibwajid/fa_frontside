@@ -79,7 +79,7 @@ const Header = () => {
         <div className="header-logo">
           <Link to="/">
 {/*             <img src="/path/to/logo.png" alt="Your Logo" /> */}
-          <h3 style="color: black;">Freylancer</h3>
+          <h3 style={{ color: 'black' }}>Freylancer</h3>
           </Link>
         </div>
         <nav className="header-nav">
