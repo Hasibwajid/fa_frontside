@@ -78,7 +78,8 @@ const Header = () => {
       <div className="header-content">
         <div className="header-logo">
           <Link to="/">
-            <img src="/path/to/logo.png" alt="Your Logo" />
+{/*             <img src="/path/to/logo.png" alt="Your Logo" /> */}
+            <h3>Freylancer</h3>
           </Link>
         </div>
         <nav className="header-nav">
